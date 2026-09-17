@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aufgabe 3 – Produktkatalog</title>
+  <style>
+    .filters button.active {
+      font-weight: bold;
+      text-decoration: underline;
+    }
+    #product-list {
+      list-style: none;
+      padding: 0;
+    }
+    #product-list li {
+      margin-bottom: 0.5rem;
+    }
+    .hidden {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>Schulshop – Produktkatalog</h1>
+  <p>Durchsuchen und filtern Sie die Artikel (z.B. für den Klassenkasse-Shop).</p>
+
+  <label for="search">Suche</label>
+  <input type="search" id="search" placeholder="Name oder Beschreibung…">
+
+  <div class="filters">
+    <button type="button" data-category="all" class="active">Alle</button>
+    <button type="button" data-category="schreibwaren">Schreibwaren</button>
+    <button type="button" data-category="technik">Technik</button>
+    <button type="button" data-category="kleidung">Kleidung</button>
+  </div>
+
+  <ul id="product-list">
+    <!-- Beispiel: <li><strong>Notizbuch A5</strong> – CHF 4.50 (Schreibwaren)</li> -->
+  </ul>
+
+  <p id="empty-message" class="hidden">Keine Produkte gefunden.</p>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

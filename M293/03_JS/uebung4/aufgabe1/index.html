@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aufgabe 1 – Kursanmeldung</title>
+  <style>
+    .error {
+      color: #b00020;
+      border-color: #b00020;
+    }
+    .success {
+      color: #0a7a2f;
+      font-weight: bold;
+    }
+    .hidden {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>Kursanmeldung</h1>
+  <p>Melden Sie sich für den Kurs «Web-Grundlagen» an.</p>
+
+  <form id="registration-form">
+    <div>
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name">
+    </div>
+    <div>
+      <label for="email">E-Mail</label>
+      <input type="email" id="email" name="email">
+    </div>
+    <div>
+      <label>
+        <input type="checkbox" id="terms" name="terms">
+        Ich akzeptiere die Teilnahmebedingungen
+      </label>
+    </div>
+    <button type="submit">Anmelden</button>
+  </form>
+
+  <p id="feedback" class="hidden"></p>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

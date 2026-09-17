@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aufgabe 2 – Einkaufsliste</title>
+  <style>
+    .done {
+      text-decoration: line-through;
+      opacity: 0.6;
+    }
+    li {
+      display: flex;
+      gap: 0.5rem;
+      align-items: center;
+      margin-bottom: 0.25rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>Einkaufsliste</h1>
+  <p>Artikel bleiben nach einem Reload erhalten (localStorage).</p>
+
+  <form id="item-form">
+    <label for="item-input">Artikel</label>
+    <input type="text" id="item-input" placeholder="z.B. Milch" required>
+    <button type="submit">Hinzufügen</button>
+  </form>
+
+  <ul id="shopping-list">
+    <!-- Beispiel: <li><span>Milch</span><button type="button">Erledigt</button><button type="button">Löschen</button></li> -->
+  </ul>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

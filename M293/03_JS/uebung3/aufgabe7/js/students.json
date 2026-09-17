@@ -1,0 +1,92 @@
+[
+   {
+      "id":1,
+      "name":"Anna Meier",
+      "points":42,
+      "maxPoints":50
+   },
+   {
+      "id":2,
+      "name":"Lukas Steiner",
+      "points":37,
+      "maxPoints":50
+   },
+   {
+      "id":3,
+      "name":"Sophie Keller",
+      "points":20,
+      "maxPoints":50
+   },
+   {
+      "id":4,
+      "name":"Jonas Müller",
+      "points":28,
+      "maxPoints":40
+   },
+   {
+      "id":5,
+      "name":"Lea Baumann",
+      "points":39,
+      "maxPoints":50
+   },
+   {
+      "id":6,
+      "name":"Noah Schmid",
+      "points":50,
+      "maxPoints":50
+   },
+   {
+      "id":7,
+      "name":"Mia Hofmann",
+      "points":31,
+      "maxPoints":40
+   },
+   {
+      "id":8,
+      "name":"Tim Graf",
+      "points":22,
+      "maxPoints":30
+   },
+   {
+      "id":9,
+      "name":"Laura Frei",
+      "points":18,
+      "maxPoints":25
+   },
+   {
+      "id":10,
+      "name":"David Scherrer",
+      "points":44,
+      "maxPoints":50
+   },
+   {
+      "id":11,
+      "name":"Nina Bär",
+      "points":29,
+      "maxPoints":35
+   },
+   {
+      "id":12,
+      "name":"Elias Marti",
+      "points":23,
+      "maxPoints":40
+   },
+   {
+      "id":13,
+      "name":"Julia Hug",
+      "points":27,
+      "maxPoints":30
+   },
+   {
+      "id":14,
+      "name":"Fabian Küng",
+      "points":41,
+      "maxPoints":50
+   },
+   {
+      "id":15,
+      "name":"Sara Baumgartner",
+      "points":36,
+      "maxPoints":45
+   }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "user": "Max Mustermann",
+    "email": "max@gmail.com"
+  },
+  {
+    "id": 2,
+    "user": "Helene Fischer",
+    "email": "helene@fischer.ch"
+  }
+]

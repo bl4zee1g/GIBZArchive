@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Notizbuch A5",
+    "description": "Kariertes Heft mit Hardcover",
+    "price": 4.5,
+    "category": "schreibwaren"
+  },
+  {
+    "id": 2,
+    "name": "Kugelschreiber Set",
+    "description": "4er-Set blau und schwarz",
+    "price": 3.9,
+    "category": "schreibwaren"
+  },
+  {
+    "id": 3,
+    "name": "USB-Stick 64GB",
+    "description": "Schneller Stick für Präsentationen und Abgaben",
+    "price": 12.9,
+    "category": "technik"
+  },
+  {
+    "id": 4,
+    "name": "Kabel USB-C",
+    "description": "1.5m Ladekabel",
+    "price": 9.5,
+    "category": "technik"
+  },
+  {
+    "id": 5,
+    "name": "Hoodie GIBZ",
+    "description": "Kapuzenpulli in Grösse M",
+    "price": 49.0,
+    "category": "kleidung"
+  },
+  {
+    "id": 6,
+    "name": "Cap GIBZ",
+    "description": "Baseballmütze mit Logo",
+    "price": 19.9,
+    "category": "kleidung"
+  },
+  {
+    "id": 7,
+    "name": "Textmarker 6er",
+    "description": "Leuchtfarben zum Markieren von Skripten",
+    "price": 6.5,
+    "category": "schreibwaren"
+  },
+  {
+    "id": 8,
+    "name": "Kopfhörer On-Ear",
+    "description": "Für Online-Unterricht und Fokusphasen",
+    "price": 29.9,
+    "category": "technik"
+  }
+]

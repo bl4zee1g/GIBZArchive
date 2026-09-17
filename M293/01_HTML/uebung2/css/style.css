@@ -1,0 +1,113 @@
+/* reset margin, padding & co. */
+* {
+margin: 0;
+padding: 0;
+-moz-box-sizing: padding-box;
+-webkit-box-sizing: padding-box;
+box-sizing: padding-box;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+/* render html5 elements as block */
+header, footer, section, aside, nav, article { display: block;}
+
+body {
+	font-family: monospace;
+}
+
+h1, h2, .head-firma {
+	font-family: sans-serif;
+	margin: 0px 0px 10px 0px;
+}
+
+p {
+	margin: 5px 0px 12px 0px;
+	line-height: 1.5em;
+}
+
+#thepage {
+	margin: 10px;
+	width: 880px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* ----------header for logo-------------- */
+header {
+	padding: 20px 40px 40px 40px;
+}
+
+header img {
+	float: right;
+}
+
+.head-firma {
+	font-size: 2.5em;
+	margin: 0px;
+}
+
+.head-slogag {
+	margin-top: 10px;
+}
+
+/* -------------- navigavtion------------- */
+nav {
+	font-size: 1.1em;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+}
+
+nav ul { 
+	list-style-type: none; 
+	margin:0;
+}
+
+nav li {
+	display: inline;
+}
+
+nav a {
+	display: inline-block;
+	margin:0;
+	border-right: 1px solid black;
+	padding: 10px 40px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #080808;
+}
+
+/* ----------------- content--------------------- */
+#content {
+	float: left;
+	width: 700px;
+	padding: 20px 20px 0px 40px;
+	min-height: 300px;
+	border-right: 1px solid black;
+}
+
+table, td, th {
+	padding: 20px;
+	border: 1px dotted;
+	border-collapse: collapse;
+}
+
+
+/* -------------- side infos ------------- */
+aside{
+	float: right;
+	width: 180px;
+	padding: 20px 40px 0px 20px;
+}
+
+/* -----------footer--------------------------- */
+footer {
+	padding: 20px 40px 20px 40px;
+	border-top: 1px solid black;
+	clear:both;
+	text-align: center;
+	color: gray;
+}
