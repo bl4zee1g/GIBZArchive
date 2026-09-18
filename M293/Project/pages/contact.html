@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontakt - Tony's Elektro Schuppen</title>
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="https://api.iconify.design/ic:baseline-message.svg?color=%234285f4"
+    />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body data-category="kontakt">
+    <header>
+      <nav class="container">
+        <a href="/">
+          <h1>TONY'S ELEKTRO SCHUPPEN</h1>
+        </a>
+        <ul id="headright">
+          <li>
+            <a href="./smartphones.html">
+              <h3>Smartphones</h3>
+            </a>
+          </li>
+          <li>
+            <a href="./tablets.html">
+              <h3>Tablets</h3>
+            </a>
+          </li>
+          <li>
+            <a href="./laptops.html">
+              <h3>Laptops</h3>
+            </a>
+          </li>
+          <li>
+            <a href="./contact.html">
+              <h3><span style="text-decoration: underline">Kontakt</span></h3>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <h1 class="title">Kontakt</h1>
+    <main class="container">
+      <form>
+        <label for="name">Dein Name</label>
+        <input type="text" id="name" name="name" />
+        <label for="mail">E-Mail</label>
+        <input type="email" id="mail" name="mail" />
+        <label for="message">Nachricht</label>
+        <input type="textarea" id="message" name="message" />
+        <span>Wie findest du unsere Preise?</span>
+        <ul>
+          <label
+            ><input type="radio" name="satisfaction" value="super fair" />super
+            fair</label
+          >
+          <label
+            ><input type="radio" name="satisfaction" value="okay" />okay</label
+          >
+          <label
+            ><input type="radio" name="satisfaction" value="teuer" />
+            teuer</label
+          >
+        </ul>
+        <span></span><button id="submit">Absenden</button>
+      </form>
+    </main>
+    <footer>
+      <ul class="container">
+        <li>
+          <ol id="opening-hours">
+            <li><h4>Öffnungszeiten</h4></li>
+            <li><p>Mo - Do: 11 - 18:30 Uhr</p></li>
+            <li><p>Fr - Sa: 11 - 17:00 Uhr</p></li>
+            <li><p>So: geschlossen</p></li>
+          </ol>
+        </li>
+        <li>
+          <p id="quote">
+            <q
+              >Bei Tony’s Elektroschuppen geht es nicht nur um Geräte, sondern
+              um die Menschen dahinter: Ich liebe es, Ihnen die Technik zu
+              zeigen, die ihr Leben bereichert.</q
+            ><br />- Tony
+          </p>
+        </li>
+        <li>
+          <ol id="address">
+            <li><h4>Adresse</h4></li>
+            <li><p>Tony’s Elektro Schuppen</p></li>
+            <li><p>Musterstrasse 22</p></li>
+            <li><p>6456 Musterhausen</p></li>
+          </ol>
+        </li>
+      </ul>
+    </footer>
+    <script src="../script.js" type="module"></script>
+  </body>
+</html>

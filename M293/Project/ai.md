@@ -1,0 +1,3 @@
+# Nutzung von AI
+
+Ich habe für das Projekt oft AI benutzt, jedoch nie, um direkt Code zu editieren, sondern immer bei Sachen, bei denen ich nicht weiterkam, mich in die richtige Richtung zu stossen. Dazu habe ich den [understand-explain])<https://www.skills.sh/egonex-ai/understand-anything/understand-explain>) skill gebraucht. Am meisten habe ich AI für CSS gebraucht, da es für mich das unintuitivste ist. Meine Prompts waren meist im Stil von "look at line x @styles.css and tell me why it doesn't behave the way I would expect it to" -> am nützlichsten, wenn die Properties von HTML-Elementen anders heissen, als ich dachte (accent-colr vs color etc.)
